@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0" version="29.1.1">
+  <diagram name="Page-1" id="8NOxHGdzzPfV3EbT7xbB">
+    <mxGraphModel dx="1188" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=1;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&#xa;Android Phone" vertex="1">
+          <mxGeometry height="180" width="240" x="80" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;executionEnvironment&amp;gt;&amp;gt;&#xa;Android OS 5.0+" vertex="1">
+          <mxGeometry height="50" width="200" x="100" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&#xa;RadioApp.apk" vertex="1">
+          <mxGeometry height="50" width="200" x="100" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=1;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&#xa;Radio Server" vertex="1">
+          <mxGeometry height="180" width="240" x="520" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;executionEnvironment&amp;gt;&amp;gt;&#xa;Web Server" vertex="1">
+          <mxGeometry height="50" width="200" x="540" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&#xa;StreamingService" vertex="1">
+          <mxGeometry height="50" width="200" x="540" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=1;html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;device&amp;gt;&amp;gt;&#xa;CDN Server" vertex="1">
+          <mxGeometry height="140" width="240" x="300" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="html=1;whiteSpace=wrap;" value="&amp;lt;&amp;lt;artifact&amp;gt;&amp;gt;&#xa;AudioCache" vertex="1">
+          <mxGeometry height="50" width="200" x="320" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="2" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=0;exitY=0;exitDx=120;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="340" y="320" as="sourcePoint" />
+            <mxPoint x="520" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&amp;lt;&amp;lt;HTTPS&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="370" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="2" style="endArrow=open;endSize=12;dashed=1;html=1;exitX=1.016;exitY=0.46;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=240;entryDy=95;entryPerimeter=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="105" y="40" as="sourcePoint" />
+            <mxPoint x="300" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&amp;lt;&amp;lt;HTTPS&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="250" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0;entryY=0;entryDx=120;entryDy=0;entryPerimeter=0;" target="8" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="570" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&amp;lt;&amp;lt;TCP/IP&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="490" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="1" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" value="Minimum Requirements:&#xa;- Android 5.0 (API 21)&#xa;- 1GB RAM&#xa;- 50MB Storage&#xa;- 3G/4G Connection" vertex="1">
+          <mxGeometry height="100" width="160" x="80" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="1" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="80" width="160" x="600" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hCGSd-0c5oaGWnRj4TDv-27" parent="1" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" value="Compression:&lt;br&gt;- Opus Codec&lt;br&gt;- 70% bandwidth reduction&lt;br&gt;- Adaptive bitrate" vertex="1">
+          <mxGeometry height="100" width="160" x="570" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
