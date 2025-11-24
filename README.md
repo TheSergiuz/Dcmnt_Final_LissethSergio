@@ -45,12 +45,12 @@
 
 | Diagram | Preview | Source File |
 |---------|---------|-------------|
-| **Use Case Diagram** | [View PNG](./diagrams/dynamic/use-case-diagram.png) | [Edit (.drawio)](./diagrams/dynamic/use-case-diagram.drawio) |
-| **Activity Diagram** | [View PNG](./diagrams/dynamic/activity-diagram.png) | [Edit (.drawio)](./diagrams/dynamic/activity-diagram.drawio) |
-| **Sequence Diagram** | [View PNG](./diagrams/dynamic/sequence-diagram.png) | [Edit (.drawio)](./diagrams/dynamic/sequence-diagram.drawio) |
-| **Communication Diagram** | [View PNG](./diagrams/dynamic/communication-diagram.png) | [Edit (.drawio)](./diagrams/dynamic/communication-diagram.drawio) |
-| **Timing Diagram** | [View PNG](./diagrams/dynamic/timing-diagram.png) | [Edit (.drawio)](./diagrams/dynamic/timing-diagram.drawio) |
-| **State Diagram** | [View PNG](./diagrams/dynamic/state-diagram.png) | [Edit (.drawio)](./diagrams/dynamic/state-diagram.drawio) |
+| **Use Case Diagram** | [View PNG](./diagrams/dynamic/use-case-diagram.png) | [Edit (.drawio)](./diagrams/source/use-case-diagram.drawio) |
+| **Activity Diagram** | [View PNG](./diagrams/dynamic/activity-diagram.png) | [Edit (.drawio)](./diagrams/source/activity-diagram.drawio) |
+| **Sequence Diagram** | [View PNG](./diagrams/dynamic/sequence-diagram.png) | [Edit (.drawio)](./diagrams/source/sequence-diagram.drawio) |
+| **Communication Diagram** | [View PNG](./diagrams/dynamic/communication-diagram.png) | [Edit (.drawio)](./diagrams/source/communication-diagram.drawio) |
+| **Timing Diagram** | [View PNG](./diagrams/dynamic/timing-diagram.png) | [Edit (.drawio)](./diagrams/source/timing-diagram.drawio) |
+| **State Diagram** | [View PNG](./diagrams/dynamic/state-diagram.png) | [Edit (.drawio)](./diagrams/source/state-diagram.drawio) |
 
 ## System Architecture
 
